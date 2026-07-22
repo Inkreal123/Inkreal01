@@ -1,0 +1,11 @@
+{
+  "name": "InkReal — Where Stories Become Reality",
+  "short_name": "InkReal",
+  "description": "A living creative universe where writers, readers, poets, storytellers, spoken word artists, educators, publishers, and creators come together.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0b08",
+  "theme_color": "#0d0b08",
+  "orientation": "portrait-primary",
+  "icons": [{ "src": "/inkreal-mark.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0d0b08" />
+    <title>InkReal — Where Stories Become Reality</title>
+    <meta name="title" content="InkReal — Where Stories Become Reality" />
+    <meta name="description" content="InkReal is a global creative platform connecting writers, readers, storytellers, and creators through publishing, communities, books, audio, and creative tools. Founded by Jaydin Donough." />
+    <meta name="keywords" content="InkReal, writing platform, creative writing, publish books, poetry, spoken word, storytellers, authors, writers community, South Africa writing, African literature, self-publishing, digital library, audio stories" />
+    <meta name="author" content="Jaydin Donough — Founder of InkReal" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://inkreal.onrender.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://inkreal.onrender.com/" />
+    <meta property="og:title" content="InkReal — Where Stories Become Reality" />
+    <meta property="og:description" content="A living creative universe where writers, readers, poets, storytellers, spoken word artists, educators, publishers, and creators come together. Founded by Jaydin Donough." />
+    <meta property="og:image" content="https://inkreal.onrender.com/inkreal-og.svg" />
+    <meta property="og:site_name" content="InkReal" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="InkReal — Where Stories Become Reality" />
+    <meta name="twitter:description" content="A living creative universe where writers, readers, poets, storytellers, and creators come together." />
+    <meta name="twitter:image" content="https://inkreal.onrender.com/inkreal-og.svg" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "InkReal",
+      "alternateName": "InkReal — Where Stories Become Reality",
+      "url": "https://inkreal.onrender.com/",
+      "description": "A living creative universe where writers, readers, poets, storytellers, spoken word artists, educators, publishers, and creators come together to write, read, listen, watch, publish, collaborate, and build meaningful careers.",
+      "applicationCategory": "CreativeApplication",
+      "operatingSystem": "Web",
+      "creator": { "@type": "Person", "name": "Jaydin Donough", "jobTitle": "Founder" },
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "featureList": [
+        "Publish and sell books globally",
+        "Write and share poetry and spoken word",
+        "Build creator communities",
+        "Audio storytelling and narration",
+        "Multi-currency support (ZAR, USD, EUR, GBP)",
+        "Writing studio with auto-save",
+        "Reader library with bookmarks",
+        "Creator analytics dashboard",
+        "Living environment engine with seasonal animations",
+        "Global literary map",
+        "Offline creative studio (PWA)"
+      ]
+    }
+    </script>
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="/inkreal-mark.svg" />
+    <link rel="apple-touch-icon" href="/inkreal-mark.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>
