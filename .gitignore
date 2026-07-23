@@ -1,3 +1,4 @@
 node_modules/
 dist/
 .v3/
+.env
